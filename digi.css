@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hwb(76 8% 36%);
+  }
+  
+  .digital-watch {
+    font-size: 4em;
+    color: #0051ff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    
+    /* Background image */
+    background-image: url('digital-watch-background.jpg'); /* Replace with your image path */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+  }
+  
+  #time {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for time display */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
